@@ -1,0 +1,21 @@
+[project]
+name = "cosmetics-scraper-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "asyncpg>=0.31.0",
+    "cryptg>=0.5.2",
+    "google-genai>=1.66.0",
+    "hachoir>=3.3.0",
+    "phonenumbers>=9.0.25",
+    "pillow>=12.1.1",
+    "pydantic>=2.12.5",
+    "pydantic-extra-types>=2.11.0",
+    "pydantic-settings>=2.13.1",
+    "python-socks>=2.8.1",
+    "sqlalchemy>=2.0.48",
+    "telethon>=1.42.0",
+]
